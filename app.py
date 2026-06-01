@@ -112,19 +112,6 @@ html, body, [class*="css"] {
     margin: 1.5rem 0;
 }
 
-div[data-testid="stNotification"] p {
-    color: #14532d !important;
-    font-weight: 600 !important;
-}
-
-div[data-testid="stSpinner"] p {
-    color: #166534 !important;
-    font-weight: 600 !important;
-}
-
-div[data-testid="stNotification"] svg {
-    fill: #16a34a !important;
-}
 /* Footer */
 .footer {
     text-align: center;
