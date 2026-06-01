@@ -111,7 +111,59 @@ html, body, [class*="css"] {
     border-top: 1.5px solid #bbf7d0;
     margin: 1.5rem 0;
 }
+/* ================================================= */
+/* ĐOẠN ĐỔI TOÀN BỘ TEXT SANG MÀU XANH LỤC ĐẬM DỄ NHÌN */
+/* ================================================= */
 
+/* Tiêu đề lớn và phụ */
+.hero-title {
+    color: #064e3b !important; /* Xanh lục sẫm */
+}
+.hero-sub {
+    color: #059669 !important; /* Xanh ngọc đậm */
+}
+
+/* Các tiêu đề mục H4 (Kết quả nhận diện, Top 5) */
+h4 {
+    color: #064e3b !important;
+}
+
+/* Chữ "Độ tự tin:" */
+strong {
+    color: #064e3b !important;
+}
+
+/* Tên các loại quả trong danh sách Top 5 */
+.conf-label {
+    color: #047857 !important;
+}
+
+/* Chữ số hiển thị % ở cuối dòng */
+.conf-pct {
+    color: #047857 !important;
+}
+
+/* Sửa chữ màu trắng trong hộp st.success (Mô hình đã sẵn sàng) */
+div[data-testid="stNotification"] p {
+    color: #064e3b !important;
+    font-weight: 600 !important;
+}
+
+/* Sửa chữ màu trắng trong st.spinner (AI đang phân tích...) */
+div[data-testid="stSpinner"] p {
+    color: #064e3b !important;
+    font-weight: 600 !important;
+}
+
+/* Đổi màu icon dấu tích sang màu xanh đậm cho đồng bộ */
+div[data-testid="stNotification"] svg {
+    fill: #059669 !important;
+}
+
+/* Dòng chữ dưới chân trang (Footer) */
+.footer {
+    color: #059669 !important;
+}
 /* Footer */
 .footer {
     text-align: center;
