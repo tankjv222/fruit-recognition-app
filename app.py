@@ -264,4 +264,4 @@ if uploaded_file is not None:
     if top1_conf < 60:
         st.warning(" Độ tự tin thấp — hãy thử ảnh rõ hơn, chụp gần trái cây hơn.")
 
-st.markdown('<div class="footer">FruitSense AI · YOLO11 · Đồ án môn học · 2025</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">FruitSense AI · YOLO11 · Đồ án môn học · 2026</div>', unsafe_allow_html=True)
